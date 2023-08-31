@@ -76,6 +76,22 @@ form > .campo {
 div.campo > label {
     display: none;
 }
+div.campo > span {
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    font-size: 1em;
+    
+    
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    
+}
 
 form > input[type=submit] {
     display: block;
@@ -86,6 +102,7 @@ form > input[type=submit] {
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 form > input[type=submit]:hover {
